@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'StringifyMacro_Example' do
+  pod 'StringifyMacro', :path => '../'
+
+  target 'StringifyMacro_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
