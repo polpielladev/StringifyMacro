@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'StringifyMacro'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'A short description of StringifyMacro.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -12,7 +12,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '16.0'
   s.source_files = ['StringifyMacro/Classes/**/*']
   s.swift_version = "5.9"
-  s.preserve_paths = ["*"]
+  s.preserve_paths = ["StringifyMacro/macros/StringifyMacros"]
   s.pod_target_xcconfig = {
     'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/StringifyMacro/StringifyMacros#StringifyMacros',
 }
