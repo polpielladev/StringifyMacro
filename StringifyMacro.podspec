@@ -8,7 +8,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Pol Piella Abadia/StringifyMacro'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Pol Piella Abadia' => 'hi@polpiella.dev' }
-  s.source           = { :git => 'https://github.com/Pol Piella Abadia/StringifyMacro.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/polpielladev/StringifyMacro.git', :tag => s.version.to_s }
   s.ios.deployment_target = '16.0'
   s.source_files = ['StringifyMacro/Classes/**/*', 'StringifyMacro/macros/StringifyMacros']
   s.swift_version = "5.9"
