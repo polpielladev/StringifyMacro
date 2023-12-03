@@ -14,6 +14,10 @@ TODO: Add long description of the pod here.
   s.swift_version = "5.9"
   s.preserve_paths = ["StringifyMacro/macros/StringifyMacros"]
   s.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/StringifyMacro/StringifyMacro/macros/StringifyMacros#StringifyMacros',
-}
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/StringifyMacro/StringifyMacro/macros/StringifyMacros#StringifyMacros'
+  }
+
+  s.user_target_xcconfig = {
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/StringifyMacro/StringifyMacro/macros/StringifyMacros#StringifyMacros'
+  }
 end
