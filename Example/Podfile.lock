@@ -1,0 +1,16 @@
+PODS:
+  - StringifyMacro (0.1.0)
+
+DEPENDENCIES:
+  - StringifyMacro (from `../`)
+
+EXTERNAL SOURCES:
+  StringifyMacro:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StringifyMacro: 341e97030c180889ef19b015bfa5bcb72e6be7e6
+
+PODFILE CHECKSUM: 779c9577cbef26b4e509468a6c4bb9330dfdcb71
+
+COCOAPODS: 1.14.3

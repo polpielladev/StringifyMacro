@@ -1,0 +1,6 @@
+framework module Pods_StringifyMacro_Example {
+  umbrella header "Pods-StringifyMacro_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

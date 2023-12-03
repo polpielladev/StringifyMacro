@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import StringifyMacro
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let a = 5
+        let b = 6
+        _ = #stringify(a + b)
     }
 
     override func didReceiveMemoryWarning() {

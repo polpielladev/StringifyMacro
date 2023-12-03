@@ -1,0 +1,6 @@
+framework module StringifyMacro {
+  umbrella header "StringifyMacro-umbrella.h"
+
+  export *
+  module * { export * }
+}
