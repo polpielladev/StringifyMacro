@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'StringifyMacro'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of StringifyMacro.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -10,7 +10,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Pol Piella Abadia' => 'hi@polpiella.dev' }
   s.source           = { :git => 'https://github.com/polpielladev/StringifyMacro.git', :tag => s.version.to_s }
   s.ios.deployment_target = '16.0'
-  s.source_files = ['StringifyMacro/Classes/**/*', 'StringifyMacro/macros/StringifyMacros']
+  s.source_files = ['StringifyMacro/Classes/**/*']
   s.swift_version = "5.9"
   s.preserve_paths = ["*"]
   s.pod_target_xcconfig = {
